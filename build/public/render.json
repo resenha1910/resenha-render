@@ -1,0 +1,333 @@
+{
+  "title": "Corinthians paga 1 mês de dívida, mas ainda deve imagem e prêmios!",
+  "headline": "Corinthians paga 1 mês de dívida, mas ainda deve imagem e prêmios!",
+  "summary": "O Corinthians pagou um dos meses de direitos de imagem atrasados, mas a diretoria ainda deve um mês de direitos de imagem e premiações da Libertadores e do Brasileirão. O clube enfrenta grave crise financeira e transfer bans.",
+  "source": "Ge",
+  "cta": "Deixa seu like, comenta e segue o Resenha 1910 pra não perder nada!",
+  "text": "Faaala Fiel! A diretoria do Corinthians trouxe uma notícia que mexe com a nossa esperança e preocupação. Nesta segunda-feira, o Timão finalmente pagou um dos meses de direitos de imagem que estavam atrasados com o elenco masculino. Uma dívida que vinha pesando, agora foi parcialmente reduzida, trazendo um alívio momentâneo. O pagamento, que deveria ter sido feito na última quinta-feira, saiu com quatro dias de atraso. Mas a luta continua! A diretoria ainda deve um mês de direito de imagem aos nossos jogadores. E não para por aí: premiações importantes da Conmebol Libertadores e do Campeonato Brasileiro também seguem pendentes. Os direitos de imagem de junho já estavam atrasados desde 20 de julho, e os de julho venceram na última quinta. Cada mês de direito de imagem representa um custo de cerca de R$ 10 milhões para os cofres do clube. O Corinthians enfrenta uma grave crise financeira, que tem dificultado honrar os compromissos do dia a dia. Pra piorar, o clube está proibido de registrar novos jogadores por causa de três transfer bans em vigor. Essas dívidas que geraram os bans somam cerca de R$ 21,5 milhões. Até o salário de agosto chegou a atrasar, sendo pago dias depois. A situação é delicada. Lembrem-se, Fiel: os direitos de imagem compõem boa parte da remuneração dos nossos atletas. Essa informação foi divulgada pelo Ge. A diretoria deu um passo, mas a batalha financeira do Timão está longe de acabar. E aí, Fiel? O que você achou dessa notícia? Deixa seu like, comenta e segue o Resenha 1910 pra não perder nada!",
+  "narration": "Faaala Fiel! A diretoria do Corinthians trouxe uma notícia que mexe com a nossa esperança e preocupação. Nesta segunda-feira, o Timão finalmente pagou um dos meses de direitos de imagem que estavam atrasados com o elenco masculino. Uma dívida que vinha pesando, agora foi parcialmente reduzida, trazendo um alívio momentâneo. O pagamento, que deveria ter sido feito na última quinta-feira, saiu com quatro dias de atraso. Mas a luta continua! A diretoria ainda deve um mês de direito de imagem aos nossos jogadores. E não para por aí: premiações importantes da Conmebol Libertadores e do Campeonato Brasileiro também seguem pendentes. Os direitos de imagem de junho já estavam atrasados desde 20 de julho, e os de julho venceram na última quinta. Cada mês de direito de imagem representa um custo de cerca de R$ 10 milhões para os cofres do clube. O Corinthians enfrenta uma grave crise financeira, que tem dificultado honrar os compromissos do dia a dia. Pra piorar, o clube está proibido de registrar novos jogadores por causa de três transfer bans em vigor. Essas dívidas que geraram os bans somam cerca de R$ 21,5 milhões. Até o salário de agosto chegou a atrasar, sendo pago dias depois. A situação é delicada. Lembrem-se, Fiel: os direitos de imagem compõem boa parte da remuneração dos nossos atletas. Essa informação foi divulgada pelo Ge. A diretoria deu um passo, mas a batalha financeira do Timão está longe de acabar. E aí, Fiel? O que você achou dessa notícia? Deixa seu like, comenta e segue o Resenha 1910 pra não perder nada!",
+  "keywords": [
+    "Corinthians",
+    "Dívida",
+    "Direitos de Imagem",
+    "Atraso",
+    "Pagamento",
+    "Crise Financeira",
+    "Transfer Ban",
+    "Premiações",
+    "Libertadores",
+    "Brasileirão",
+    "Elenco",
+    "Jogadores"
+  ],
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "spriteId": "S1",
+      "text": "Corinthians paga 1 mês de dívida, mas ainda deve imagem e prêmios!",
+      "spriteDescription": "Silhueta cinematográfica e editorial de uma mão segurando um maço de dinheiro, com uma sombra abstrata e escura de dívida ou peso ao fundo. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "headline",
+        "description": "Exibe a headline principal do vídeo.",
+        "text": "Corinthians paga 1 mês de dívida, mas ainda deve imagem e prêmios!",
+        "position": "top",
+        "animation": "slide-in-top",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "zoom"
+    },
+    {
+      "sceneNumber": 2,
+      "spriteId": "S2",
+      "text": "Faaala Fiel! A diretoria do Corinthians trouxe uma notícia que mexe com a nossa esperança e preocupação.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um torcedor do Corinthians, de costas ou perfil, com os braços levantados em um gesto de torcida, mas com uma postura que sugere incerteza ou apreensão. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": false,
+        "type": "none",
+        "description": "",
+        "text": "",
+        "position": "",
+        "animation": "",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "pan-right"
+    },
+    {
+      "sceneNumber": 3,
+      "spriteId": "S3",
+      "text": "Nesta segunda-feira, o Timão finalmente pagou um dos meses de direitos de imagem que estavam atrasados com o elenco masculino.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de uma mão estendendo um envelope ou um maço de notas, simbolizando um pagamento. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "label",
+        "description": "Destaca a ação de pagamento.",
+        "text": "PAGAMENTO REALIZADO",
+        "position": "bottom",
+        "animation": "fade-in",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "push"
+    },
+    {
+      "sceneNumber": 4,
+      "spriteId": "S4",
+      "text": "Uma dívida que vinha pesando, agora foi parcialmente reduzida, trazendo um alívio momentâneo.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de uma balança com um dos pratos mais leve e o outro ainda com um peso considerável, indicando uma redução parcial. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "arrow",
+        "description": "Seta indicando a redução da dívida.",
+        "text": "DÍVIDA REDUZIDA",
+        "position": "center",
+        "animation": "fade-in",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "slow-zoom"
+    },
+    {
+      "sceneNumber": 5,
+      "spriteId": "S5",
+      "text": "O pagamento, que deveria ter sido feito na última quinta-feira, saiu com quatro dias de atraso.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um calendário com um círculo ou X marcando uma data passada e uma seta apontando para a data atual, simbolizando o atraso. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "number-highlight",
+        "description": "Destaca o número de dias de atraso.",
+        "text": "4 DIAS DE ATRASO",
+        "position": "top",
+        "animation": "slide-in-top",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "pan-left"
+    },
+    {
+      "sceneNumber": 6,
+      "spriteId": "S6",
+      "text": "Mas a luta continua! A diretoria ainda deve um mês de direito de imagem aos nossos jogadores.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um jogador de futebol, de perfil, com uma expressão de espera ou questionamento, e um ponto de interrogação abstrato sobre a cabeça. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "warning",
+        "description": "Alerta sobre a dívida pendente.",
+        "text": "AINDA DEVE 1 MÊS",
+        "position": "bottom",
+        "animation": "fade-in",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "zoom"
+    },
+    {
+      "sceneNumber": 7,
+      "spriteId": "S7",
+      "text": "E não para por aí: premiações importantes da Conmebol Libertadores e do Campeonato Brasileiro também seguem pendentes.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de dois troféus, um da Libertadores e outro do Brasileirão, com um cadeado ou uma corrente abstrata sobre eles, indicando que estão retidos. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "label",
+        "description": "Informa sobre as premiações pendentes.",
+        "text": "PRÊMIOS PENDENTES",
+        "position": "top",
+        "animation": "slide-in-top",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "pan-right"
+    },
+    {
+      "sceneNumber": 8,
+      "spriteId": "S8",
+      "text": "Os direitos de imagem de junho já estavam atrasados desde 20 de julho, e os de julho venceram na última quinta.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de duas pilhas de notas ou moedas, uma menor e outra maior, representando a acumulação de dívidas. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "underline",
+        "description": "Sublinha a informação de meses atrasados.",
+        "text": "JUNHO E JULHO",
+        "position": "bottom",
+        "animation": "fade-in",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "push"
+    },
+    {
+      "sceneNumber": 9,
+      "spriteId": "S9",
+      "text": "Cada mês de direito de imagem representa um custo de cerca de R$ 10 milhões para os cofres do clube.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de uma calculadora ou tela de computador exibindo um valor alto em cifrões, com um símbolo de dinheiro. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "number-highlight",
+        "description": "Destaca o valor do custo mensal.",
+        "text": "R$ 10 MILHÕES/MÊS",
+        "position": "center",
+        "animation": "scale-up",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "zoom"
+    },
+    {
+      "sceneNumber": 10,
+      "spriteId": "S10",
+      "text": "O Corinthians enfrenta uma grave crise financeira, que tem dificultado honrar os compromissos do dia a dia.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um cofre vazio ou com teias de aranha, simbolizando a falta de recursos. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "warning",
+        "description": "Alerta sobre a crise financeira.",
+        "text": "CRISE FINANCEIRA",
+        "position": "top",
+        "animation": "slide-in-top",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "slow-zoom"
+    },
+    {
+      "sceneNumber": 11,
+      "spriteId": "S11",
+      "text": "Pra piorar, o clube está proibido de registrar novos jogadores por causa de três transfer bans em vigor.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de uma placa de 'proibido' ou 'stop' sobre a imagem de um jogador de futebol, indicando a restrição. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "label",
+        "description": "Informa sobre os transfer bans.",
+        "text": "3 TRANSFER BANS",
+        "position": "bottom",
+        "animation": "fade-in",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "pan-left"
+    },
+    {
+      "sceneNumber": 12,
+      "spriteId": "S12",
+      "text": "Essas dívidas que geraram os bans somam cerca de R$ 21,5 milhões.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de uma corrente quebrada ou um nó desfeito, com um símbolo de dinheiro ou um número grande associado, representando o valor da dívida dos bans. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "number-highlight",
+        "description": "Destaca o valor total da dívida dos bans.",
+        "text": "R$ 21,5 MILHÕES",
+        "position": "center",
+        "animation": "scale-up",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "zoom"
+    },
+    {
+      "sceneNumber": 13,
+      "spriteId": "S13",
+      "text": "Até o salário de agosto chegou a atrasar, sendo pago dias depois. A situação é delicada.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um relógio de parede ou de pulso, com um cifrão caindo ou escorrendo, simbolizando o atraso nos pagamentos. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "emphasis",
+        "description": "Enfatiza a delicadeza da situação.",
+        "text": "SITUAÇÃO DELICADA",
+        "position": "top",
+        "animation": "slide-in-top",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "pan-right"
+    },
+    {
+      "sceneNumber": 14,
+      "spriteId": "S14",
+      "text": "Lembrem-se, Fiel: os direitos de imagem compõem boa parte da remuneração dos nossos atletas.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um jogador de futebol, com um grande cifrão ou símbolo de dinheiro sobreposto ou integrado ao uniforme, destacando a importância da remuneração. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "card",
+        "description": "Apresenta a informação sobre a importância dos direitos de imagem.",
+        "text": "REMUNERAÇÃO DOS ATLETAS",
+        "position": "bottom",
+        "animation": "fade-in",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "slow-zoom"
+    },
+    {
+      "sceneNumber": 15,
+      "spriteId": "S15",
+      "text": "Essa informação foi divulgada pelo Ge.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um microfone de repórter ou um ícone de notícia, com um design abstrato que remete ao logo 'Ge' (sem texto, apenas forma). Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "label",
+        "description": "Cita a fonte da notícia.",
+        "text": "FONTE: GE",
+        "position": "top",
+        "animation": "slide-in-top",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "zoom"
+    },
+    {
+      "sceneNumber": 16,
+      "spriteId": "S16",
+      "text": "A diretoria deu um passo, mas a batalha financeira do Timão está longe de acabar.",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um jogador de futebol olhando para um horizonte distante ou um caminho com obstáculos, simbolizando a jornada financeira contínua. Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "emphasis",
+        "description": "Enfatiza a continuidade da batalha financeira.",
+        "text": "BATALHA CONTINUA",
+        "position": "bottom",
+        "animation": "fade-in",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "pan-left"
+    },
+    {
+      "sceneNumber": 17,
+      "spriteId": "S17",
+      "text": "E aí, Fiel? O que você achou dessa notícia? Deixa seu like, comenta e segue o Resenha 1910 pra não perder nada!",
+      "spriteDescription": "Silhueta cinematográfica e editorial de um conjunto de ícones de redes sociais: um polegar para cima (like), um balão de fala (comentário) e um ícone de seguir (follow). Alto contraste, preto e branco.",
+      "motionGraphics": {
+        "enabled": true,
+        "type": "card",
+        "description": "Chamada para ação (like, comentar, seguir).",
+        "text": "CURTA, COMENTE, SIGA!",
+        "position": "center",
+        "animation": "scale-up",
+        "duration": 0.6,
+        "accentColor": "red",
+        "elements": []
+      },
+      "effect": "zoom"
+    }
+  ],
+  "sceneCount": 17,
+  "durationEstimate": 68
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: "Road Rage";
+  src: url("../public/fonts/Road_Rage.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Big Noodle Titling";
+  src: url("../public/fonts/big_noodle_titling.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Big Noodle Titling Oblique";
+  src: url("../public/fonts/big_noodle_titling_oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Road Rage", Arial, sans-serif;
+}
