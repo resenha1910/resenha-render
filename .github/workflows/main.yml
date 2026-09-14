@@ -1,0 +1,28 @@
+name: Render Video Remotion
+
+on:
+  repository_dispatch:
+    types: [render-trigger]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Instalar Dependências
+        run: npm install
+
+      - name: Criar pasta render.json
+        run: |
+          mkdir -p public
+          echo '${{ github.event.client_payload.render_json }}' > public/render.json
+
+      - name: Renderizar Vídeo com Remotion
+        run: npx remotion render Resenha1910 out/video.mp4
