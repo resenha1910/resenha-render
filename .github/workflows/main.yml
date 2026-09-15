@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Clonar Repositório
         uses: actions/checkout@v4
@@ -19,18 +20,19 @@ jobs:
       - name: Instalar Dependências
         run: npm install
 
-     - name: Verificar dados recebidos do n8n
-  run: |
-    mkdir -p public
-    echo "=== PAYLOAD RECEBIDO ==="
-    echo '${{ github.event.client_payload.render_json }}'
-    echo "=== FIM DO PAYLOAD ==="
+      - name: Verificar dados recebidos do n8n
+        run: |
+          mkdir -p public
 
-    echo '${{ github.event.client_payload.render_json }}' > public/render.json
+          echo "=== PAYLOAD RECEBIDO ==="
+          echo '${{ github.event.client_payload.render_json }}'
+          echo "=== FIM DO PAYLOAD ==="
 
-    echo "=== CONTEÚDO DO render.json ==="
-    cat public/render.json
-    echo "=== FIM DO render.json ==="
+          echo '${{ github.event.client_payload.render_json }}' > public/render.json
+
+          echo "=== CONTEÚDO DO render.json ==="
+          cat public/render.json
+          echo "=== FIM DO render.json ==="
 
       - name: Renderizar Vídeo com Remotion
         run: npx remotion render Resenha1910 out/video.mp4
