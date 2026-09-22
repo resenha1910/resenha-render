@@ -20,16 +20,10 @@ jobs:
       - name: Instalar Dependências
         run: npm install
 
-      - name: Verificar dados recebidos do n8n
+      - name: Verificar Arquivos na Pasta Public
         run: |
-          mkdir -p public
-
-          echo "=== PAYLOAD RECEBIDO ==="
-          echo '${{ github.event.client_payload.render_json }}'
-          echo "=== FIM DO PAYLOAD ==="
-
-          echo '${{ github.event.client_payload.render_json }}' > public/render.json
-
+          echo "=== CONTEÚDO DA PASTA PUBLIC ==="
+          ls -la public/
           echo "=== CONTEÚDO DO render.json ==="
           cat public/render.json
           echo "=== FIM DO render.json ==="
