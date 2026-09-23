@@ -29,4 +29,8 @@ jobs:
           echo "=== FIM DO render.json ==="
 
       - name: Renderizar Vídeo com Remotion
-        run: npx remotion render Resenha1910 out/video.mp4
+        run: npx remotion render Resenha1910 out/video.mp4 --concurrency=4
+
+      - name: Enviar Vídeo para o n8n
+        run: |
+          curl -X POST -F "data=@out/video.mp4" "https://SEU-WEBHOOK-DO-N8N/webhook/receber-video"
