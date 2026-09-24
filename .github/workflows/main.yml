@@ -33,4 +33,4 @@ jobs:
 
       - name: Enviar Vídeo para o n8n
         run: |
-          curl -X POST -F "data=@out/video.mp4" "https://chicago-luck-msie-member.trycloudflare.com/webhook-test/f2e1f3af-8081-4a0c-9361-a26e8dd358c5/webhook/receber-video"
+          curl -X POST -F "data=@out/video.mp4" "https://chicago-luck-msie-member.trycloudflare.com/webhook/f2e1f3af-8081-4a0c-9361-a26e8dd358c5/webhook/receber-video"
