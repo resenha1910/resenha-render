@@ -23,14 +23,33 @@ jobs:
       - name: Verificar Arquivos na Pasta Public
         run: |
           echo "=== CONTEÚDO DA PASTA PUBLIC ==="
-          ls -la public/
+          ls -lah public/
           echo "=== CONTEÚDO DO render.json ==="
           cat public/render.json
           echo "=== FIM DO render.json ==="
 
       - name: Renderizar Vídeo com Remotion
-        run: npx remotion render Resenha1910 out/video.mp4 --concurrency=4
+        run: |
+          npx remotion render Resenha1910 out/video.mp4 --concurrency=4
+
+      - name: Verificar Vídeo Renderizado
+        run: |
+          echo "=== VÍDEO GERADO ==="
+          ls -lh out/video.mp4
+          file out/video.mp4
 
       - name: Enviar Vídeo para o n8n
         run: |
-          curl -X POST -F "data=@out/video.mp4" "https://chicago-luck-msie-member.trycloudflare.com/webhook/f2e1f3af-8081-4a0c-9361-a26e8dd358c5/webhook/receber-video"
+          curl --fail-with-body \
+            --show-error \
+            --location \
+            --retry 3 \
+            --retry-delay 5 \
+            --connect-timeout 30 \
+            --max-time 600 \
+            -X POST \
+            -F "data=@out/video.mp4;type=video/mp4" \
+            "https://chicago-luck-msie-member.trycloudflare.com/webhook/f2e1f3af-8081-4a0c-9361-a26e8dd358c5"
+
+      - name: Finalizado
+        run: echo "Vídeo enviado ao n8n com sucesso."
