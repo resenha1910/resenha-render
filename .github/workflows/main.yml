@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Clonar Repositório
@@ -38,18 +40,29 @@ jobs:
           ls -lh out/video.mp4
           file out/video.mp4
 
-      - name: Enviar Vídeo para o n8n
+      - name: Publicar Vídeo em Release
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          gh release create "video-${{ github.run_id }}" out/video.mp4 \
+            --title "Vídeo ${{ github.run_id }}" \
+            --notes "Renderizado pela execução ${{ github.run_id }}"
+
+      - name: Avisar n8n
+        run: |
+          VIDEO_URL="https://github.com/${{ github.repository }}/releases/download/video-${{ github.run_id }}/video.mp4"
+          echo "URL do vídeo: $VIDEO_URL"
           curl --fail-with-body \
             --show-error \
             --location \
             --retry 3 \
             --retry-delay 5 \
             --connect-timeout 30 \
-            --max-time 600 \
+            --max-time 120 \
             -X POST \
-            -F "data=@out/video.mp4;type=video/mp4" \
+            -H "Content-Type: application/json" \
+            -d "{\"url\":\"$VIDEO_URL\",\"run_id\":\"${{ github.run_id }}\"}" \
             "https://women-kurt-symptoms-accounts.trycloudflare.com/f2e1f3af-8081-4a0c-9361-a26e8dd358c5"
 
       - name: Finalizado
-        run: echo "Vídeo enviado ao n8n com sucesso."
+        run: echo "Vídeo publicado e n8n avisado com sucesso."
