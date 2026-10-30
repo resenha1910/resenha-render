@@ -67,6 +67,6 @@ jobs:
             -X POST \
             -H "Content-Type: application/json" \
             -d "{\"url\":\"$VIDEO_URL\",\"run_id\":\"${{ github.run_id }}\"}" \
-            "https://neck-misc-associates-gui.trycloudflare.com/webhook/f2e1f3af-8081-4a0c-9361-a26e8dd358c5"
+            "https://return-nano-saw-deck.trycloudflare.com/webhook/f2e1f3af-8081-4a0c-9361-a26e8dd358c5"
       - name: Finalizado
         run: echo "Vídeo publicado e n8n avisado com sucesso."
